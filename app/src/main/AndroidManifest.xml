@@ -17,7 +17,6 @@
             </intent-filter>
         </activity>
 
-　　　　<!-- アクション名がGOGOの時にブロードキャストレシーバーを起動するように登録　-->
         <receiver
             android:name=".Receiver"
             android:exported="false">
