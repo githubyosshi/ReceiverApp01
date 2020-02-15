@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+　　　　<!-- アクション名がGOGOの時にブロードキャストレシーバーを起動するように登録　-->
+        <receiver
+            android:name=".Receiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="GOGO" />
+            </intent-filter>
+        </receiver>
+
     </application>
 
 </manifest>
